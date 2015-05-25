@@ -23,11 +23,7 @@ public class testgit {
          * compare the actual title of the page witht the expected one and print
          * the result as "Passed" or "Failed"
          */
-        if (actualTitle.contentEquals(expectedTitle)){
-            System.out.println("Test Passed!");
-        } else {
-            System.out.println("Test Failed");
-        }
+       
        
         //close Firefox
         driver.close();
